@@ -1,0 +1,30 @@
+// Example program
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+  
+  string book = "Ten Thousand Leagues";
+  
+  cout << "Your book name is: " << book << endl;
+  
+  cout << book[0] << " is the first letter" << endl;
+  
+  book.push_back('a');
+  
+  cout << book << " a push_back has occurred" << endl;
+    /*
+  std::string name;
+  std::cout << "What is your name? ";
+  getline (std::cin, name);
+  std::cout << "Hello, " << name << "!\n";
+  */
+  
+  
+  
+  
+  
+}
